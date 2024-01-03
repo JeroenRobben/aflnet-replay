@@ -3,5 +3,5 @@
 ```bash
 git clone https://github.com/JeroenRobben/aflnet-replay.git
 cmake -S aflnet-replay/ -B aflnet-replay/build
-cmake --build aflnet-replay/build --target aflnet-replay -- -j 4
+cmake --build aflnet-replay/build --target all -- -j 4
 ```
